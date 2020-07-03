@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.example.gameofdraughts.CustomView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_purple"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/currentPlayerTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Game"
+            android:textSize="60px"/>
+        <TextView
+            android:id="@+id/p1CountTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Player 1 has"
+            android:textSize="60px"/>
+        <TextView
+            android:id="@+id/p2CountTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Player 2 has"
+            android:textSize="60px"/>
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset"/>
+
+
+    </LinearLayout>
+</LinearLayout>
